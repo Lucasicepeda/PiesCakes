@@ -1,0 +1,661 @@
+*   {
+    padding: 0%;
+    margin: 0%;
+    /* font-family: 'Sansita Swashed', cursive; */
+    font-family: 'Lora', serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+/* HEADER */
+
+header {
+    background-image: url(../imagenes/header3.svg);
+    height: 190px;
+    background-size: cover;
+    position: sticky;
+}
+
+.logo img{
+    /* display: inline-block; */
+    width: 130px;
+    /* animation-name: logo;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite; */
+} 
+
+.header{ 
+    display: flex;
+    flex-wrap: wrap;      /* TAMBIEN SE PUEDE HACER CON flex-flow: row wrap;*/
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+}
+/* NAVEGACION */
+.navbar li{
+    background-color: #ffddd2;
+    display: inline-block;
+    font-size: 22px;
+    padding: 5px 10px;
+    margin: 3px 4px;
+    border-radius: 6px;
+    text-decoration: none;
+} 
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 4px 8px;
+}
+
+/* PAGINA INICIO */
+
+#text1{
+    font-size: 32px;
+    display: inline-block;
+}
+
+#text2{
+    display: inline-block;
+    font-size: 22px;
+    font-style: italic;
+} 
+
+.parrafo p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Parisienne';
+    font-size: x-large;
+    text-align:center;
+    margin: 30px 100px;
+}
+
+.imgs{
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    /*flex-flow: row wrap;*/
+    justify-content: space-evenly; 
+    align-items: baseline;
+}
+
+.imgs img{
+    width: 220px;
+    height: 220px;
+    border-radius:7px;
+    margin: 40px 0px;
+}
+
+body{
+    background-image: url(../imagenes/background.png);
+}
+
+footer {
+    position:static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffd2c8;
+    /* background-image: url(../imagenes/footer.svg); */
+    background-size: cover;
+    height: 110px;
+}
+
+.copyright{
+    font-size: 13px;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0px 0px 0px 50px;
+}
+
+.arriba{
+    display: inline-block;
+    align-content: end;
+    font-size: 18px;
+    text-decoration:underline;
+    color: black;
+}
+.arriba a{
+    text-decoration: none;
+    color: black;
+}
+
+.arriba a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.links {
+    display: inline-block;
+    margin: 0px 50px 0px 0px;
+}
+
+.links a {
+    margin: 0px 4px;
+}
+.links img{
+    width: 32px;
+}
+
+/* PAGINA PRODUCTOS */
+.productosp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    margin: 40px 0px;
+}
+
+.gridcontainerproductos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+    "fila 1 fila 1 fila 1 fila 1 fila 1"
+    "fila 2 fila 2 fila 2 fila 2 fila 2"
+    "fila 3 fila 3 fila 3 fila 3 fila 3"
+    ;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    align-items: center;
+    justify-items: center;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #d6d6d6; */
+    /* border: 1px solid black; */
+    border-radius: 5%;
+    margin: 8px 8px;
+}
+.Fotoproducto{
+    display: inline-block;
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+    margin: 12px 12px;
+    transition: 2s;
+}
+
+.textimg{
+    display: flex;
+    justify-content: center;;
+    margin: 2px 2px;
+    font-weight: bolder;
+}
+
+/* .contenedor:hover .textimg{
+    position: relative;
+    visibility: visible;
+    display: block;
+    bottom: 10px;
+    right: 44%;
+    color:black;
+} */
+
+
+
+/* PAGINA NOSOTROS */
+
+.mainnosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 0px 50px 0px;
+}
+
+.sandrayaylen{
+    width: 400px;
+}
+
+.sandrayaylen:hover  {
+    transition: 300ms;
+    box-shadow: 0.3rem 0.3rem 0.7rem #00000063;
+}
+
+.textycorazon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pnosotros{
+    display: inline-block;
+    width: 500px;
+}
+
+.corazon{
+    display: flex;
+    width:75px;
+    margin: 20px 20px;
+}
+
+/* PAGINA HACE TU PEDIDO  */
+.gridcontainerhtp{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+    "fila 1 fila 1 fila 1 fila 1 fila 1"
+    "fila 2 fila 2 fila 2 fila 2 fila 2"
+    "fila 3 fila 3 fila 3 fila 3 fila 3"
+    ;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    align-items: center;
+    justify-items: center;
+}
+
+.gridcontainerhtp .producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d6d6d6;
+    border-radius: 5%;
+    margin: 15px 7px;
+    width: 230px;
+}
+
+.checkbox{
+    display: inline-block;
+    margin: 4px 7px 10px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.carrito {    
+    background-color: #909090;
+    margin: 9px 0px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0px 3px;
+    border-radius: 5%;
+}
+.confpedido{
+    display: flex;
+    justify-content: flex-end;
+}
+.confpedido button{
+    margin: 20px 40px;
+    padding: 2px 3px;
+}
+
+.pespeciales {
+    display: flex;
+    justify-content: center;
+    font-size:larger;
+    margin: 30px 0px;
+}
+
+.pespeciales a{
+    text-decoration: none;
+    color: black;
+}
+.pespeciales a:hover{
+    text-decoration:underline;
+    color: #0000b1;
+}
+
+/* PAGINA CONTACTO */
+
+.mapa{
+    display: inline-block;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+.form input{
+    display: inline-block;
+    border: solid black 2px;
+    border-radius: 2%;
+    width: 200px;
+    height: 30px;
+    margin: 0px 30px;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea textarea{
+    display: inline-block;
+    border: solid black 2px;
+    width: 270px;
+    height: 150px;
+    margin: 40px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0px 20px;
+}
+.botones button{
+    width:130px;
+    margin: 0px 0px 5px 20px;
+}
+
+#limpiar {
+    display: inline-block;
+    margin-right: 0px 10px;
+}
+
+.bodycontacto{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+
+/* TAMAÑO TABLET */
+@media screen and (max-width: 768px){
+    #text1{
+        font-size: 25px;
+        display: inline-block;
+    }
+    #text2{
+        display: inline-block;
+        font-size: 22px;
+        font-style: italic;
+    } 
+    .navbar li{
+        font-size: 20px;
+    } 
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-evenly;
+        height: 160px;
+    }
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar li{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pespeciales{
+        align-items: center;
+        text-align: center;
+    }
+    .bodycontacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form{
+        margin: 30px 0px 20px 0px;
+    }
+    .form input{
+        width: 270px;
+        margin: 10px;
+    }
+    .botones{
+        flex-direction: column;
+        align-items: center;
+    }
+    .textarea{
+        margin: 0px;
+    }
+    .textarea textarea{
+        margin: 20px 20px;
+    }
+    .comentarios{
+        margin: 0px;
+    }
+    .botones button{
+        width: 270px;
+        margin: 5px 0px;
+    }
+    .imgs{
+        margin-top: 20px;
+    }
+    .imgs img {
+        margin: 20px 40px;
+    }
+    .gridcontainerproductos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+        "fila 1 fila 1 fila 1"
+        "fila 2 fila 2 fila 2"
+        "fila 3 fila 3 fila 3"
+        "fila 4 fila 4 fila 4"
+        "fila 5 fila 5 fila 5"
+        ;
+        grid-column-gap: 2px;
+        grid-row-gap: 2px;
+        align-items: center;
+        justify-items: center;
+    }
+    .gridcontainerhtp{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+        "fila 1 fila 1 fila 1"
+        "fila 2 fila 2 fila 2"
+        "fila 3 fila 3 fila 3"
+        "fila 4 fila 4 fila 4"
+        "fila 5 fila 5 fila 5"
+        ;
+        grid-column-gap: 2px;
+        grid-row-gap: 2px;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .mainnosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0px 30px 0px;
+    }
+    .sandrayaylen{
+        margin: 20px 0px 50px;
+    }
+    .pnosotros{
+        text-align: justify;
+    }
+}
+
+/* TAMAÑO CELU */
+@media screen and (max-width: 426px){
+    /* CODEAR ACA LO QUE SE MODIFICARIA A PARTIR DE ESTE TAMAÑO(CUANDO LLEGA A 1200 QUE PASE LO SIGUIENTE:) */
+    .logo img{
+        width: 80px;
+        height: 80px;
+    }
+    .links {
+        margin: 10px 10px;
+    }
+    .links img{
+        width: 20px;
+    }
+    .copyright{
+        font-size: 10px;
+        margin: 0px 0px 0px 10px;
+    }
+    .carrito {
+        margin: 3px 0px;
+    }
+    .Fotoproducto {
+        border-radius: 3%;
+        width: 160px;
+        height: 160px;
+        margin: 8px 8px;
+        transition: 2s;
+    }
+        .gridcontainerhtp .producto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #d6d6d6;
+        border-radius: 5%;
+        margin: 15px 7px;
+        width: 190px;
+        height: 210px;
+    }
+    #text1{
+        font-size: 16px;
+        display: inline-block;
+    }
+    .arriba{
+        display: inline-block;
+        align-content: end;
+        font-size: 13px;
+        color: black;
+    }
+    #text2{
+        display: inline-block;
+        font-size: 13px;
+        font-style: italic;
+    } 
+    .mapa{
+        margin: 10px 10px;
+    }
+    .parrafo p {
+        margin: 20px 15px;
+    }
+    .header {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: space-evenly;
+        height: 160;
+    }
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar li{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pespeciales{
+        align-items: center;
+        text-align: center;
+    }
+    .bodycontacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form{
+        margin: 30px 0px 20px 0px;
+    }
+    .form input{
+        width: 270px;
+        margin: 10px;
+    }
+    .botones{
+        flex-direction: column;
+        align-items: center;
+    }
+    .textarea{
+        margin: 0px;
+    }
+    .textarea textarea{
+        margin: 20px 20px;
+    }
+    .comentarios{
+        margin: 0px;
+    }
+    .botones button{
+        width: 270px;
+        margin: 5px 0px;
+    }
+    .imgs{
+        margin-top: 20px;
+    }
+    
+    .imgs img {
+        width: 150px;
+        height: 150px;
+        margin: 10px 10px;
+    }
+    .gridcontainerproductos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+        "fila 1 fila 1 "
+        "fila 2 fila 2 "
+        "fila 3 fila 3 "
+        "fila 4 fila 4 "
+        "fila 5 fila 5 "
+        "fila 5 fila 5 "
+        ;
+        grid-column-gap: 2px;
+        grid-row-gap: 2px;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .gridcontainerhtp{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+        "fila 1 fila 1 "
+        "fila 2 fila 2 "
+        "fila 3 fila 3 "
+        "fila 4 fila 4 "
+        "fila 5 fila 5 "
+        "fila 6 fila 6 "
+        ;
+        grid-column-gap: 2px;
+        grid-row-gap: 2px;
+        align-items: center;
+        justify-items: center;
+    }
+    .mainnosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0px 30px 0px;
+    }
+    .sandrayaylen{
+        margin: 20px 0px 50px;
+    }
+    .pnosotros{
+        text-align: justify;
+        margin: 5px 10px;
+        width: auto;
+    }
+}
