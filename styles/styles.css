@@ -1,9 +1,7 @@
 *   {
     padding: 0%;
     margin: 0%;
-    /* font-family: 'Sansita Swashed', cursive; */
     font-family: 'Lora', serif;
-    /* font-family: 'Roboto', sans-serif; */
 }
 /* HEADER */
 
@@ -15,7 +13,6 @@ header {
 }
 
 .logo img{
-    /* display: inline-block; */
     width: 130px;
     /* animation-name: logo;
     animation-duration: 4s;
@@ -93,6 +90,11 @@ header {
     height: 220px;
     border-radius:7px;
     margin: 40px 0px;
+}
+.imgs img:hover{
+    width: 250px;
+    height: 250px;
+    transition: 500ms;
 }
 
 body{
@@ -182,30 +184,40 @@ footer {
     border-radius: 5%;
     margin: 8px 8px;
 }
+
+.producto{
+    position: relative;
+}
 .Fotoproducto{
     display: inline-block;
     border-radius: 5%;
     width: 200px;
     height: 200px;
     margin: 12px 12px;
-    transition: 2s;
+}
+
+.Fotoproducto:hover{
+    opacity: 65%;
+    transition: 500ms;
+}
+
+.textimg:hover {
+    opacity: 100%;
+    /* display: block; */
+    position: absolute;
+    font-size: 4vh;
+    color: black; 
 }
 
 .textimg{
-    display: flex;
-    justify-content: center;;
-    margin: 2px 2px;
+    opacity: 0%;
+    /* display: none; */
+    position: absolute;
+    margin: 50% 50%;
     font-weight: bolder;
 }
 
-/* .contenedor:hover .textimg{
-    position: relative;
-    visibility: visible;
-    display: block;
-    bottom: 10px;
-    right: 44%;
-    color:black;
-} */
+
 
 
 
