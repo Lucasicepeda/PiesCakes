@@ -22,105 +22,346 @@
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="../styles/stylesrem.css" />
 </head>
+
 <body>
-    <header class="header" id="arriba">
-        <div class="logo">
-            <img src="../Icons/icon.jpeg" alt="Pies&Cakes">
+    <div class="container-fluid">
+        <div class="row">
+            <header class="header" id="arriba">
+                <div class="logo">
+                    <img src="../Icons/icon.jpeg" alt="Pies&Cakes">
+                </div>
+                <div class="title1">
+                    <p>Pies & Cakes</p>
+                </div>
+                <div class="title2">
+                    <p>Hecho con Amor</p>
+                </div>
+            </header>
         </div>
-        <div class="title1">
-            <p>Pies & Cakes</p>
-        </div>
-        <div class="title2">
-            <p>Hecho con Amor</p>
-        </div>
-    </header>
-    <nav>
-        <ul class="navbar">
-            <li><a href="../index.html">Inicio</a> </li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="nosotros.html">Nosotros</a> </li>
-            <li><a href="hacetupedido.html">Hace tu pedido</a> </li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-    <main class="main">
-        <p class="productosp">Nuestros productos</p>
-        <div class="gridcontainerproductos">
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/Bombones.jpg" alt="Bombones">
-                <div class="textimg">Bombones</div>
-            </div>
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/Cakepops.jpg" alt="Cakepops">
-                <div class="textimg">Cakepops</div>
-            </div>
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/Icepops.jpg" alt="Icepops">
-                <div class="textimg">Icepops</div>
-            </div>
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/Chocotorta.jpg" alt="Chocotorta">
-                <div class="textimg">Chocotorta</div>
-            </div>
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/Cookies.jpg" alt="Cookies">
-                <div class="textimg">Cookies</div>
-            </div>
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/Pepas.jpg" alt="Pepas">
-                <div class="textimg">Pepas</div>
-            </div>
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/Shots.jpg" alt="Shots">
-                <div class="textimg">Shots</div>
-            </div>
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/Cupcakes.jpg" alt="Cupcakes">
-                <div class="textimg">Cupcakes</div>
-            </div>
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/Galletitas.jpg" alt="Galletitas Personalizadas">
-                <div class="textimg">Galletitas Personalizadas</div>
-            </div>
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/Maicena.jpg" alt="Alfajores de Maicena">
-                <div class="textimg">Alfajores de Maicena</div>
-            </div>
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/Achocolate.jpg" alt="Alfajor de Chocolate">
-                <div class="textimg">Alfajor de Chocolate</div>
-            </div>
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/Marquesse.jpg" alt="Torta Marquesse">
-                <div class="textimg">Torta Marquesse</div>
-            </div>
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/Tartadurazno.jpg" alt="Tarta de Durazno">
-                <div class="textimg">Tarta de Durazno</div>
-            </div>
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/Tartamanzana.jpg" alt="Tarta de Manzana">
-                <div class="textimg">Tarta de Manzana</div>
-            </div>
-            <div class="contenedor">
-                <img class="Fotoproducto" src="../imagenes/Productos/TortasP.jpg" alt="Tortas Personalizadas">
-                <div class="textimg">Tortas Personalizadas</div>
+        <div class="row">
+            <div class="col-12">
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="../index.html">Inicio</a> </li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="nosotros.html">Nosotros</a> </li>
+                        <li><a href="hacetupedido.html">Hace tu pedido</a> </li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
-    </main>
-    <footer>
-        <div class="copyright">
-            <p>Pagina creada por Lucas Cepeda</p>
+        <div class="row">
+            <div class="col-12">
+                <main class="main">
+                    <p class="productosp">Nuestros productos</p>
+                    <div class="gridcontainerproductos">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/Bombones.jpg" class="img-fluid rounded-start" alt="Bombones">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bombones</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/Bombones.jpg" alt="Bombones">
+                            <div class="textimg">Bombones</div>
+                        </div> -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/Cakepops.jpg"  class="img-fluid rounded-start" alt="Cakepops">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cakepops</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/Cakepops.jpg" alt="Cakepops">
+                            <div class="textimg">Cakepops</div>
+                        </div> -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/Icepops.jpg"  class="img-fluid rounded-start" alt="Icepops">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Icepops</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/Icepops.jpg" alt="Icepops">
+                            <div class="textimg">Icepops</div>
+                        </div> -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/Chocotorta.jpg"  class="img-fluid rounded-start" alt="Chocotorta">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chocotorta</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/Chocotorta.jpg" alt="Chocotorta">
+                            <div class="textimg">Chocotorta</div>
+                        </div> -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/Cookies.jpg"  class="img-fluid rounded-start" alt="Cookies">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cookies</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/Cookies.jpg" alt="Cookies">
+                            <div class="textimg">Cookies</div>
+                        </div> -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/Pepas.jpg"  class="img-fluid rounded-start" alt="Pepas">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pepas</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/Pepas.jpg" alt="Pepas">
+                            <div class="textimg">Pepas</div>
+                        </div> -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/Shots.jpg"  class="img-fluid rounded-start" alt="Shots">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Shots</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/Shots.jpg" alt="Shots">
+                            <div class="textimg">Shots</div>
+                        </div> -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/Cupcakes.jpg"  class="img-fluid rounded-start" alt="Cupcakes">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cupcakes</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/Cupcakes.jpg" alt="Cupcakes">
+                            <div class="textimg">Cupcakes</div>
+                        </div> -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/Galletitas.jpg"  class="img-fluid rounded-start" alt="Galletitas Personalizadas">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Galletitas Personalizadas</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/Galletitas.jpg" alt="Galletitas Personalizadas">
+                            <div class="textimg">Galletitas Personalizadas</div>
+                        </div> -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/Maicena.jpg"  class="img-fluid rounded-start" alt="Maicena">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Maicena</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/Maicena.jpg" alt="Alfajores de Maicena">
+                            <div class="textimg">Alfajores de Maicena</div>
+                        </div> -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/Achocolate.jpg"  class="img-fluid rounded-start" alt="Alfajor de Chocolate">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Alfajor de Chocolate</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/Achocolate.jpg" alt="Alfajor de Chocolate">
+                            <div class="textimg">Alfajor de Chocolate</div>
+                        </div> -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/Marquesse.jpg"  class="img-fluid rounded-start" alt="Torta Marquesse">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Torta Marquesse</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/Marquesse.jpg" alt="Torta Marquesse">
+                            <div class="textimg">Torta Marquesse</div>
+                        </div> -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/Tartadurazno.jpg"  class="img-fluid rounded-start" alt="Tarta de Durazno">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tarta de Durazno</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/Tartadurazno.jpg" alt="Tarta de Durazno">
+                            <div class="textimg">Tarta de Durazno</div>
+                        </div> -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/Tartamanzana.jpg"  class="img-fluid rounded-start" alt="Tarta de Manzana">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tarta de Manzana</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/Tartamanzana.jpg" alt="Tarta de Manzana">
+                            <div class="textimg">Tarta de Manzana</div>
+                        </div> -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="../imagenes/Productos/TortasP.jpg"  class="img-fluid rounded-start" alt="Tortas Personalizadas">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tortas Personalizadas</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <!-- <p class="card-text"><small class="text-muted">Precio: $500</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="contenedor">
+                            <img class="Fotoproducto" src="../imagenes/Productos/TortasP.jpg" alt="Tortas Personalizadas">
+                            <div class="textimg">Tortas Personalizadas</div>
+                        </div> -->
+                    </div>
+                </main>
+            </div>
         </div>
-        <div class="arriba">
-            <a href="#arriba">Volver Arriba</a>
+        <div class="row">
+            <div class="col-12">  
+                <footer>
+                    <div class="copyright">
+                        <p>Pagina creada por Lucas Cepeda</p>
+                    </div>
+                    <div class="arriba">
+                        <a href="#arriba">Volver Arriba</a>
+                    </div>
+                    <div class="links">
+                        <a href="mailto:piescakes@gmail.com"><img src="../Icons/gmail.png" alt="Email"></a>
+                        <a href="https://www.instagram.com/sandrapiescakes/"><img src="../Icons/instagram.png" alt="Instagram"></a>
+                        <a href="https://wa.me/+5491122531045"><img src="../Icons/whatsapp.png" alt="Whatsapp"></a>
+                    </div>
+                </footer>
+            </div>
         </div>
-        <div class="links">
-            <a href="mailto:piescakes@gmail.com"><img src="../Icons/gmail.png" alt="Email"></a>
-            <a href="https://www.instagram.com/sandrapiescakes/"><img src="../Icons/instagram.png" alt="Instagram"></a>
-            <a href="https://wa.me/+5491122531045"><img src="../Icons/whatsapp.png" alt="Whatsapp"></a>
-        </div>
-    </footer>
     <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
@@ -129,6 +370,7 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
     <!-- BOOTSTRAP -->
+    </div>
 </body>
 
 </html>

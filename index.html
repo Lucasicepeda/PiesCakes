@@ -22,62 +22,77 @@
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="styles/stylesrem.css" />
 </head>
+
 <body>
-    <header class="header" id="arriba">
-        <div class="logo">
-            <img src="Icons/icon.jpeg" alt="Pies&Cakes">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <header class="header" id="arriba">
+                    <div class="logo">
+                        <img src="Icons/icon.jpeg" alt="Pies&Cakes">
+                    </div>
+                    <div class="title1">
+                        <p>Pies & Cakes</p>
+                    </div>
+                    <div class="title2">
+                        <p>Hecho con Amor</p>
+                    </div>
+                </header>
+            </div>
         </div>
-        <div class="title1">
-            <p>Pies & Cakes</p>
+        <div class="row">
+            <div class="col-12">
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="index.html">Inicio</a> </li>
+                        <li><a href="paginas/productos.html">Productos</a></li>
+                        <li><a href="paginas/nosotros.html">Nosotros</a> </li>
+                        <li><a href="paginas/hacetupedido.html">Hace tu pedido</a> </li>
+                        <li><a href="paginas/contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div class="title2">
-            <p>Hecho con Amor</p>
+        <div class="row">
+            <main>
+                <div class="imgs">
+                    <img src="imagenes/Torta1.jpeg">
+                    <img src="imagenes/Torta2.jpeg">
+                    <img src="imagenes/Torta3.jpeg">
+                    <img src="imagenes/Torta4.jpeg">
+                </div>
+                <div class="parrafo">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam a ex non eveniet
+                        officia,
+                        laudantium, fugiat perspiciatis qui sint repellat vitae sed impedit repudiandae ipsum esse
+                        animi blanditiis ratione doloremque!</p>
+                </div>
+            </main>
         </div>
-    </header>
-    <nav>
-        <ul class="navbar">
-            <li><a href="index.html">Inicio</a> </li>
-            <li><a href="paginas/productos.html">Productos</a></li>
-            <li><a href="paginas/nosotros.html">Nosotros</a> </li>
-            <li><a href="paginas/hacetupedido.html">Hace tu pedido</a> </li>
-            <li><a href="paginas/contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-    <main>
-        <div class="imgs">
-            <img src="imagenes/Torta1.jpeg">
-            <img src="imagenes/Torta2.jpeg">
-            <img src="imagenes/Torta3.jpeg">
-            <img src="imagenes/Torta4.jpeg">
+        <div class="row">
+            <footer>
+                <div class="copyright">
+                    <p>Pagina creada por Lucas Cepeda</p>
+                </div>
+                <div class="arriba">
+                    <a href="#arriba">Volver Arriba</a>
+                </div>
+                <div class="links">
+                    <a href="mailto:piescakes@gmail.com"><img src="Icons/gmail.png" alt="Email"></a>
+                    <a href="https://www.instagram.com/sandrapiescakes/"><img src="Icons/instagram.png" alt="Instagram"></a>
+                    <a href="https://wa.me/+5491122531045"><img src="Icons/whatsapp.png" alt="Whatsapp"></a>
+                </div>
+            </footer>
         </div>
-        <div class="parrafo">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam a ex non eveniet
-                officia,
-                laudantium, fugiat perspiciatis qui sint repellat vitae sed impedit repudiandae ipsum esse
-                animi blanditiis ratione doloremque!</p>
-        </div>
-    </main>
-    <footer>
-        <div class="copyright">
-            <p>Pagina creada por Lucas Cepeda</p>
-        </div>
-        <div class="arriba">
-            <a href="#arriba">Volver Arriba</a>
-        </div>
-        <div class="links">
-            <a href="mailto:piescakes@gmail.com"><img src="Icons/gmail.png" alt="Email"></a>
-            <a href="https://www.instagram.com/sandrapiescakes/"><img src="Icons/instagram.png" alt="Instagram"></a>
-            <a href="https://wa.me/+5491122531045"><img src="Icons/whatsapp.png" alt="Whatsapp"></a>
-        </div>
-    </footer>
-    <!-- BOOTSTRAP -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
-    <!-- BOOTSTRAP -->
+        <!-- BOOTSTRAP -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
+        <!-- BOOTSTRAP -->
+    </div>
 </body>
 
 </html>
@@ -85,7 +100,7 @@
 <!-- ESTRUCTURA BASICA DE BOOTSTRAP
     .container / container-fluid
         .row
-            .col
+            .col-sm-12 .col-md-6 .col-lg-4
             .col
 
 -->
