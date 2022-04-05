@@ -5,6 +5,9 @@
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif;
 }
+.container-fluid{
+    padding: 0%;
+}
 /* HEADER */
 
 header {
@@ -159,7 +162,9 @@ footer {
     font-style: italic;
     margin: 1rem 0rem;
 }
-
+.mb-3{
+    margin: 0rem 1rem;
+}
 .gridcontainerproductos{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -340,7 +345,8 @@ footer {
 .mapa{
     display: flex;
     justify-content: center;
-    margin: 0.5rem
+    align-content: center;
+    margin: 0.5rem;
 }
 
 .form{
@@ -625,8 +631,12 @@ footer {
     }
     
     .mapa{
+        display: flex;
         margin: 0.625rem 0.625rem;
+        /* width: 8rem;
+        height: 8rem; */
     }
+    
     .parrafo p {
         margin: 1.25rem 0.938rem;
         font-size: 1.4rem;
