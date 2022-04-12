@@ -33,6 +33,18 @@ header {
     justify-content: space-around; 
     align-items: center;
 }
+
+.title1{
+    font-size: 3.6rem;
+    display: inline-block;
+}
+
+.title2{
+    display: inline-block;
+    font-size: 1.6rem;
+    font-style: italic;
+} 
+
 /* NAVEGACION */
 
 .navbar{
@@ -63,16 +75,6 @@ header {
 
 /* PAGINA INICIO */
 
-.title1{
-    font-size: 3.6rem;
-    display: inline-block;
-}
-
-.title2{
-    display: inline-block;
-    font-size: 1.6rem;
-    font-style: italic;
-} 
 
 .parrafo p {
     display: flex;
@@ -102,6 +104,8 @@ header {
 body{
     background-image: url(../imagenes/background.png);
 }
+
+/* FOOTER */
 
 footer {
     position:static;
