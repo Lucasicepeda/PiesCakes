@@ -1,13 +1,13 @@
 @import "_variables.scss";
 @import "_mixings.scss";
-
+@import "_maps.scss";
+@import "_extend.scss";
 
 * {
     padding: 0%;
     margin: 0%;
-
     /* font-family: 'Lora', serif;
-    font-family: 'Roboto', sans-serif;  */
+    font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -24,7 +24,6 @@ header {
 .logo img {
     /* display: inline-block; */
     width: 8.125rem;
-
     /* animation-name: logo;
     animation-duration: 4s;
     animation-timing-function: ease-in;
@@ -34,8 +33,6 @@ header {
 .header {
     display: flex;
     flex-wrap: wrap;
-
-    /* TAMBIEN SE PUEDE HACER CON flex-flow: row wrap;*/
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -58,7 +55,6 @@ header {
     display: flex;
     justify-content: center;
     padding: 0.25rem 0.5rem;
-
     li {
         background-color: $backcolor;
         display: inline-block;
@@ -68,11 +64,9 @@ header {
         border-radius: 0.375rem;
         text-decoration: none;
     }
-
     a {
         text-decoration: none;
         color: black;
-
         &:hover {
             text-decoration: none;
             color: grey;
@@ -92,7 +86,6 @@ header {
 .sandrayaylen {
     width: 22rem;
     height: 22rem;
-
     &:hover {
         transition: 300ms;
         box-shadow: 0.3rem 0.3rem 0.7rem #00000063;
@@ -121,14 +114,7 @@ header {
 /* FOOTER */
 
 footer {
-    position: static;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ff937a;
-    background-size: cover;
-    height: 6.875rem;
+    @include footer;
 }
 
 .copyright {
@@ -144,11 +130,9 @@ footer {
     font-size: 1.125rem;
     text-decoration: underline;
     color: black;
-
     a {
         text-decoration: none;
         color: black;
-
         &:hover {
             text-decoration: none;
             color: grey;
@@ -159,42 +143,58 @@ footer {
 .links {
     display: inline-block;
     margin: 0rem 3.125rem 0rem 0rem;
-
     a {
         margin: 0rem 0.25rem;
     }
-
     img {
         width: 2rem;
     }
 }
 
-
-
+.img_nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    margin: 2rem 2rem;
+    .img_nosotros_box1{
+        @extend %img-box;
+        background-color: map-get($colores , box1);
+    }
+    .img_nosotros_box2{
+        @extend %img-box;
+        background-color: map-get($colores , box2);
+    }
+    .img_nosotros_box3{
+        @extend %img-box;
+        background-color: map-get($colores , box3);
+    }
+    .img_nosotros_box4{
+        @extend %img-box;
+        background-color: map-get($colores , box4);
+    }
+}
 
 
 
 // // EJEMPLOS
 // .hola {
 //     color: red;
-
 //     a {
 //         color: rgb(66, 126, 180);
 //     }
 // }
-
 // .hola img {
 //     background-color: aliceblue;
 // }
 
 // /* BUCLES */
-
 // @for $i from 1 through 5 {
 //     .item-#{$i} {
 //         width: 2px * $i;
 //     }
 // }
-
 
 // /* EACH */
 // @each $color in blue,yellow,black {
@@ -202,3 +202,5 @@ footer {
 //         color:#{$color};
 //     }
 // }
+
+@import "_mediaqueries.scss";

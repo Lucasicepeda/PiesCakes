@@ -4,3 +4,14 @@
     background-size: cover;
     position: sticky;
 }
+
+@mixin footer{
+        position: static;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ff937a;
+        background-size: cover;
+        height: 6.875rem;
+}

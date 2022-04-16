@@ -1,0 +1,308 @@
+/* TAMAÑO TABLET */
+@media screen and (max-width: 768px) {
+	.title1 {
+		p {
+			font-size: 2.8rem;
+			display: inline-block;
+		}
+	}
+	.title2 {
+		p {
+			display: inline-block;
+			font-size: 1.6rem;
+			font-style: italic;
+		}
+	}
+	.navbar {
+		li {
+			font-size: 1.25rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		flex-direction: column;
+		align-items: stretch;
+	}
+	.header {
+		flex-direction: column;
+		justify-content: center;
+		align-content: space-evenly;
+		height: 10rem;
+	}
+	.footer {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.pespeciales {
+		align-items: center;
+		text-align: center;
+	}
+	.bodycontacto {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.form {
+		margin: 1.875rem 0rem 1.25rem 0rem;
+		input {
+			width: 17rem;
+			margin: 0.6rem;
+		}
+	}
+	.botones {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		button {
+			width: fit-content;
+			margin: 0.3rem 0rem;
+		}
+	}
+	.texta {
+		margin: 0rem;
+		textarea {
+			width: 17rem;
+			margin: 1rem 1rem;
+		}
+	}
+	.comentarios {
+		margin: 0rem;
+	}
+	.imgs {
+		margin-top: 1.25rem;
+		img {
+			margin: 1.25rem 2.5rem;
+		}
+	}
+	.gridcontainerproductos {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(8, 1fr);
+		grid-template-areas: "fila 1 fila 1" "fila 2 fila 2" "fila 3 fila 3" "fila 4 fila 4" "fila 5 fila 5" "fila 6 fila 6" "fila 7 fila 7" "fila 8 fila 8";
+		grid-column-gap: 0.125rem;
+		grid-row-gap: 0.125rem;
+		align-items: center;
+		justify-items: center;
+		margin-bottom: 1rem;
+	}
+	.gridcontainerhtp {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(8, 1fr);
+		grid-template-areas: "fila 1 fila 1" "fila 2 fila 2" "fila 3 fila 3" "fila 4 fila 4" "fila 5 fila 5" "fila 6 fila 6" "fila 7 fila 7" "fila 8 fila 8";
+		grid-column-gap: 0.125rem;
+		grid-row-gap: 0.125rem;
+		align-items: center;
+		justify-items: center;
+	}
+	.textycorazon {
+		margin: 0rem 0rem;
+	}
+	.mainnosotros {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 1.875rem 0rem 1.875rem 0rem;
+	}
+	.sandrayaylen {
+		margin: 1.25rem 0rem 3.125rem;
+	}
+	.pnosotros {
+		text-align: justify;
+	}
+  .img_nosotros{
+    margin: 2rem 1rem;
+    img{
+        width: 13.75rem;
+        height: 13.75rem;
+        padding: 1rem;
+        margin: 1rem;
+        background-color: map-get($colores , back);
+    }
+}
+}
+
+
+/* TAMAÑO CELU */
+@media screen and (max-width: 426px) {
+	.logo {
+		img {
+			margin: 0.5rem 0rem 0rem 0rem;
+			width: 5rem;
+			height: 5rem;
+		}
+	}
+	.textycorazon {
+		margin: 0rem 0rem;
+	}
+	.links {
+		margin: 0.625rem 0.625rem;
+		img {
+			width: 1.25rem;
+		}
+	}
+	.copyright {
+		font-size: 0.625rem;
+		margin: 0rem 0rem 0rem 0.625rem;
+	}
+	.carrito {
+		margin: 0.188rem 0rem;
+	}
+	.Fotoproducto {
+		border-radius: 3%;
+		width: 10.5rem;
+		height: 10.5rem;
+		transition: 2s;
+	}
+	.gridcontainerhtp {
+		.producto {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: #d6d6d6;
+			border-radius: 5%;
+			margin: 0.938rem 0.438rem;
+			width: 11.875rem;
+			height: 16rem;
+			align-content: center;
+			p {
+				margin: 0rem;
+			}
+		}
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+		grid-template-areas: 
+    "fila 1 fila 1 "
+    "fila 2 fila 2 "
+    "fila 3 fila 3 "
+    "fila 4 fila 4 "
+    "fila 5 fila 5 "
+    "fila 6 fila 6 ";
+		grid-column-gap: 0.125rem;
+		grid-row-gap: 0.125rem;
+		align-items: center;
+		justify-items: center;
+	}
+	.title1 {
+		font-size: 0rem;
+		display: inline-block;
+		p {
+			font-size: 2rem;
+			display: inline-block;
+			margin: 0rem;
+		}
+	}
+	.title2 {
+		font-size: 0rem;
+		display: inline-block;
+		p {
+			display: inline-block;
+			margin: 0rem;
+			font-size: 1.2rem;
+			font-style: italic;
+		}
+	}
+	.arriba {
+		display: inline-block;
+		align-content: end;
+		font-size: 0.813rem;
+		color: black;
+	}
+	.mapa {
+		display: flex;
+		margin: 0.625rem 0.625rem;
+	}
+	.parrafo {
+		p {
+			margin: 1.25rem 0.938rem;
+			font-size: 1.4rem;
+		}
+	}
+	.header {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-content: space-evenly;
+		height: 10rem;
+	}
+	.footer {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.navbar {
+		flex-direction: column;
+		align-items: stretch;
+		li {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
+	.pespeciales {
+		align-items: center;
+		text-align: center;
+	}
+	.bodycontacto {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.form {
+		margin: 1.875rem 0rem 1.25rem 0rem;
+		input {
+			width: 16.875rem;
+			margin: 0.625rem;
+		}
+	}
+	.botones {
+		flex-direction: column;
+		align-items: center;
+		button {
+			width: 16.875rem;
+			margin: 0.313rem 0rem;
+		}
+	}
+	.texta {
+		margin: 0rem;
+		textarea {
+			margin: 1.25rem 1.25rem;
+		}
+	}
+	.comentarios {
+		margin: 0rem;
+	}
+	.imgs {
+		margin-top: 1.25rem;
+		img {
+			width: 9.375rem;
+			height: 9.375rem;
+			margin: 0.625rem 0.625rem;
+		}
+	}
+	.gridcontainerproductos {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(16, 1fr);
+		grid-template-areas: "fila 1 fila 1" "fila 2 fila 2" "fila 3 fila 3" "fila 4 fila 4" "fila 5 fila 5" "fila 6 fila 6" "fila 7 fila 7" "fila 8 fila 8";
+		grid-column-gap: 0.125rem;
+		grid-row-gap: 0.125rem;
+		align-items: stretch;
+		justify-items: stretch;
+	}
+	.mainnosotros {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 1.875rem 0rem 1.875rem 0rem;
+	}
+	.sandrayaylen {
+		margin: 1rem 2rem;
+	}
+	.pnosotros {
+		text-align: justify;
+		margin: 0.313rem 0.625rem;
+		width: auto;
+	}
+}

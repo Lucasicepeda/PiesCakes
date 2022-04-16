@@ -1,0 +1,31 @@
+%img-box {
+    width: 13.75rem;
+        height: 13.75rem;
+        padding: 1rem;
+        background-color: map-get($colores , back);
+}
+
+
+%button-format {
+	padding: 10px 20px;
+	border-radius: 15px;
+	color: black;
+}
+
+.toolbar-button {
+	@extend %button-format;
+	background-color: lightpink;
+
+	&:hover {
+		background-color: rgb(155, 106, 114);
+	}
+}
+
+.status-bar-button {
+	@extend %button-format;
+	background-color: lightblue;
+
+	&:hover {
+		background-color: blue;
+	}
+}
