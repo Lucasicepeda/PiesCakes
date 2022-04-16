@@ -35,7 +35,12 @@ header {
   background-image: url(../imagenes/header3.svg);
   height: 11.875rem;
   background-size: cover;
-  position: sticky; }
+  position: sticky;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
 
 .logo img {
   /* display: inline-block; */
@@ -45,12 +50,15 @@ header {
     animation-timing-function: ease-in;
     animation-iteration-count: infinite; */ }
 
-.header {
+.productosp {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center; }
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
+  margin: 1rem 0rem; }
 
 .title1 {
   font-size: 3.6rem;
