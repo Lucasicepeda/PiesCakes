@@ -1,4 +1,12 @@
-@mixin header{
+@mixin headeryformat {
+    * {
+        padding: 0%;
+        margin: 0%;
+        /* font-family: 'Lora', serif;
+        font-family: 'Roboto', sans-serif; */
+        font-family: 'Poppins', sans-serif;
+    }
+
     background-image: url(../imagenes/header3.svg);
     height: 11.875rem;
     background-size: cover;
@@ -8,6 +16,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
     .logo img {
         /* display: inline-block; */
         width: 8.125rem;
@@ -16,10 +25,12 @@
         animation-timing-function: ease-in;
         animation-iteration-count: infinite; */
     }
+
     .title1 {
         font-size: 3.6rem;
         display: inline-block;
     }
+
     .title2 {
         display: inline-block;
         font-size: 1.6rem;
@@ -27,10 +38,11 @@
     }
 }
 
-@mixin navbar{
+@mixin navbar {
     display: flex;
     justify-content: center;
     padding: 0.25rem 0.5rem;
+
     li {
         background-color: $backcolor;
         display: inline-block;
@@ -40,9 +52,11 @@
         border-radius: 0.375rem;
         text-decoration: none;
     }
+
     a {
         text-decoration: none;
         color: black;
+
         &:hover {
             text-decoration: none;
             color: grey;
@@ -50,18 +64,18 @@
     }
 }
 
-@mixin encabezado{
+@mixin encabezado {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.33rem;
     font-weight: 700;
     font-style: italic;
     margin: 1rem 0rem;
 }
 
-@mixin footer{
+@mixin footer {
     position: static;
     display: flex;
     flex-direction: row;
@@ -70,33 +84,40 @@
     background-color: #ff937a;
     background-size: cover;
     height: 6.875rem;
+
     .copyright {
         font-size: 0.813rem;
         display: inline-block;
         font-weight: bold;
         margin: 0rem 0rem 0rem 3.125rem;
     }
+
     .arriba {
         display: inline-block;
         align-content: end;
         font-size: 1.125rem;
         text-decoration: underline;
         color: black;
+
         a {
             text-decoration: none;
             color: black;
+
             &:hover {
                 text-decoration: none;
                 color: grey;
             }
         }
     }
+
     .links {
         display: inline-block;
         margin: 0rem 3.125rem 0rem 0rem;
+
         a {
             margin: 0rem 0.25rem;
         }
+
         img {
             width: 2rem;
         }

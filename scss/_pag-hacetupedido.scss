@@ -1,0 +1,104 @@
+.container-fluid {
+    padding: 0%;
+}
+
+/* HEADER */
+header {
+    @include headeryformat;
+}
+
+/* NAVEGACION */
+.navbar {
+    @include navbar;
+}
+
+/* ENCABEZADO */
+.productosp {
+    @include encabezado;
+    @extend %hoverencabezado;
+}
+
+/* PAGINA HACE TU PEDIDO  */
+.gridcontainerhtp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+        "fila 1 fila 1 fila 1"
+        "fila 2 fila 2 fila 2"
+        "fila 3 fila 3 fila 3"
+        "fila 4 fila 4 fila 4"
+        "fila 5 fila 5 fila 5";
+    grid-column-gap: 0.125rem;
+    grid-row-gap: 0.125rem;
+    align-items: center;
+    justify-items: center;
+
+    .producto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #d6d6d6;
+        border-radius: 5%;
+        margin: 0.9rem 0.5rem;
+        width: 14.375rem;
+    }
+}
+
+.checkbox {
+    display: inline-block;
+    margin: 0.25rem 0.25rem;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.cardshtp,
+.cardsproductos {
+    margin: 1rem 1rem;
+}
+
+.carrito {
+    background-color: #ffddd2;
+    padding: 0.2rem 0.3rem;
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    border-radius: 3%;
+
+    p {
+        margin: 0rem;
+    }
+}
+
+.confpedido {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        margin: 1.25rem 2.5rem;
+        padding: 0.15rem 0.4rem;
+    }
+}
+
+// .pespeciales {
+//     display: flex;
+//     justify-content: center;
+//     font-size: larger;
+//     margin: 1.875rem 0rem;
+//     a {
+//         text-decoration: none;
+//         color: black;
+//         &:hover {
+//             text-decoration: underline;
+//             color: #0000b1;
+//         }
+//     }
+// }
+
+/* FOOTER */
+footer {
+    @include footer;
+}

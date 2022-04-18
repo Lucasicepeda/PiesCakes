@@ -1,0 +1,106 @@
+.container-fluid {
+    padding: 0%;
+}
+
+/* HEADER */
+header {
+    @include headeryformat;
+}
+
+/* NAVEGACION */
+.navbar {
+    @include navbar;
+}
+
+/* ENCABEZADO */
+.productosp {
+    @include encabezado;
+}
+
+/* PAGINA CONTACTO */
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0rem;
+
+    input {
+        display: inline-block;
+        border: solid black 0.125rem;
+        border-radius: 2%;
+        width: 12.5rem;
+        height: 1.875rem;
+        margin: 0.5rem 1rem;
+    }
+}
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+}
+
+.texta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    textarea {
+        display: flex;
+        border: solid black 0.125rem;
+        width: 25rem;
+        height: 10rem;
+        margin: 1rem;
+    }
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0rem 1.25rem;
+    border-radius: 5% !important;
+}
+
+.boton__element {
+    border-style: none;
+    background-color: #ffddd2;
+    display: inline-block;
+    font-size: 1rem;
+    width: fit-content;
+    padding: 0.1rem 1rem;
+    margin: 0.188rem 0.25rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+        color: grey;
+    }
+}
+
+#limpiar {
+    display: inline-block;
+    margin-right: 0rem 0.625rem;
+}
+
+.bodycontacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 2.5rem 0rem;
+}
+
+/* FOOTER */
+footer {
+    @include footer;
+}
