@@ -1,0 +1,43 @@
+@import "_variables.scss";
+@import "_mixings.scss";
+@import "_maps.scss";
+@import "_extend.scss";
+@import "_pag-nosotros.scss";
+@import "_pag-index.scss";
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    /* font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+// // EJEMPLOS
+// .hola {
+//     color: red;
+//     a {
+//         color: rgb(66, 126, 180);
+//     }
+// }
+// .hola img {
+//     background-color: aliceblue;
+// }
+
+// /* BUCLES */
+// @for $i from 1 through 5 {
+//     .item-#{$i} {
+//         width: 2px * $i;
+//     }
+// }
+
+// /* EACH */
+// @each $color in blue,yellow,black {
+//     .#{$color} {
+//         color:#{$color};
+//     }
+// }
+
+@import "_mediaqueries.scss";

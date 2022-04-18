@@ -1,0 +1,80 @@
+
+.container-fluid {
+    padding: 0%;
+}
+
+/* HEADER */
+header {
+    @include header;
+}
+
+/* NAVEGACION */
+.navbar {
+    @include navbar;
+}
+
+/* ENCABEZADO */
+.productosp {
+    @include encabezado;
+}
+
+/* CUERPO PAGINA NOSOTROS */
+.mainnosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3.125rem 0rem 3.125rem 0rem;
+}
+.sandrayaylen {
+    width: 22rem;
+    height: 22rem;
+    &:hover {
+        transition: 300ms;
+        box-shadow: 0.3rem 0.3rem 0.7rem #00000063;
+    }
+}
+.textycorazon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 0rem 2rem;
+}
+.pnosotros {
+    display: inline-block;
+    width: 31.25rem;
+}
+.corazon {
+    display: flex;
+    width: 4.688rem;
+    margin: 1.25rem 1.25rem;
+}
+.img_nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    margin: 2rem 2rem;
+    .img_nosotros_box1{
+        @extend %img-box;
+        background-color: map-get($colores , box1);
+    }
+    .img_nosotros_box2{
+        @extend %img-box;
+        background-color: map-get($colores , box2);
+    }
+    .img_nosotros_box3{
+        @extend %img-box;
+        background-color: map-get($colores , box3);
+    }
+    .img_nosotros_box4{
+        @extend %img-box;
+        background-color: map-get($colores , box4);
+    }
+}
+
+/* FOOTER */
+footer {
+    @include footer;
+}

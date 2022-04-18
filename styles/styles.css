@@ -18,17 +18,13 @@ header {
 }
 
 .logo img{
-    /* display: inline-block; */
     width: 8.125rem;
-    /* animation-name: logo;
-    animation-duration: 4s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: infinite; */
+    
 } 
 
 .header{ 
     display: flex;
-    flex-wrap: wrap;      /* TAMBIEN SE PUEDE HACER CON flex-flow: row wrap;*/
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around; 
     align-items: center;
@@ -114,7 +110,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: #ff937a;
-    /* background-image: url(../imagenes/footer.svg); */
     background-size: cover;
     height: 6.875rem;
 }
