@@ -20,6 +20,10 @@ header {
 /* PAGINA PRODUCTOS */
 .mb-3 {
     margin: 0rem 1rem;
+        &:hover {
+            transition: 300ms;
+            box-shadow: 0.3rem 0.3rem 0.7rem #00000063;
+        }
 }
 
 .gridcontainerproductos {
