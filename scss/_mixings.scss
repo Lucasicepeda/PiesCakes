@@ -7,7 +7,7 @@
         font-family: 'Poppins', sans-serif;
     }
 
-    background-image: url(../imagenes/header3.svg);
+    background-image: url(../imagenes/header2.svg);
     height: 11.875rem;
     background-size: cover;
     position: sticky;
@@ -18,17 +18,14 @@
     align-items: center;
 
     .logo img {
-        /* display: inline-block; */
         width: 8.125rem;
-        /* animation-name: logo;
-        animation-duration: 4s;
-        animation-timing-function: ease-in;
-        animation-iteration-count: infinite; */
+        height: 8.125rem;
     }
 
     .title1 {
         font-size: 3.6rem;
         display: inline-block;
+        margin: 0%;
     }
 
     .title2 {

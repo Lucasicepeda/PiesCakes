@@ -32,7 +32,7 @@
 
 /* HEADER */
 header {
-  background-image: url(../imagenes/header3.svg);
+  background-image: url(../imagenes/header2.svg);
   height: 11.875rem;
   background-size: cover;
   position: sticky;
@@ -48,15 +48,12 @@ header {
         font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif; }
   header .logo img {
-    /* display: inline-block; */
     width: 8.125rem;
-    /* animation-name: logo;
-        animation-duration: 4s;
-        animation-timing-function: ease-in;
-        animation-iteration-count: infinite; */ }
+    height: 8.125rem; }
   header .title1 {
     font-size: 3.6rem;
-    display: inline-block; }
+    display: inline-block;
+    margin: 0%; }
   header .title2 {
     display: inline-block;
     font-size: 1.6rem;
@@ -146,7 +143,7 @@ footer {
 
 /* HEADER */
 header {
-  background-image: url(../imagenes/header3.svg);
+  background-image: url(../imagenes/header2.svg);
   height: 11.875rem;
   background-size: cover;
   position: sticky;
@@ -162,15 +159,12 @@ header {
         font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif; }
   header .logo img {
-    /* display: inline-block; */
     width: 8.125rem;
-    /* animation-name: logo;
-        animation-duration: 4s;
-        animation-timing-function: ease-in;
-        animation-iteration-count: infinite; */ }
+    height: 8.125rem; }
   header .title1 {
     font-size: 3.6rem;
-    display: inline-block; }
+    display: inline-block;
+    margin: 0%; }
   header .title2 {
     display: inline-block;
     font-size: 1.6rem;
@@ -282,7 +276,7 @@ footer {
 
 /* HEADER */
 header {
-  background-image: url(../imagenes/header3.svg);
+  background-image: url(../imagenes/header2.svg);
   height: 11.875rem;
   background-size: cover;
   position: sticky;
@@ -298,15 +292,12 @@ header {
         font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif; }
   header .logo img {
-    /* display: inline-block; */
     width: 8.125rem;
-    /* animation-name: logo;
-        animation-duration: 4s;
-        animation-timing-function: ease-in;
-        animation-iteration-count: infinite; */ }
+    height: 8.125rem; }
   header .title1 {
     font-size: 3.6rem;
-    display: inline-block; }
+    display: inline-block;
+    margin: 0%; }
   header .title2 {
     display: inline-block;
     font-size: 1.6rem;
@@ -429,7 +420,7 @@ footer {
 
 /* HEADER */
 header {
-  background-image: url(../imagenes/header3.svg);
+  background-image: url(../imagenes/header2.svg);
   height: 11.875rem;
   background-size: cover;
   position: sticky;
@@ -445,15 +436,12 @@ header {
         font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif; }
   header .logo img {
-    /* display: inline-block; */
     width: 8.125rem;
-    /* animation-name: logo;
-        animation-duration: 4s;
-        animation-timing-function: ease-in;
-        animation-iteration-count: infinite; */ }
+    height: 8.125rem; }
   header .title1 {
     font-size: 3.6rem;
-    display: inline-block; }
+    display: inline-block;
+    margin: 0%; }
   header .title2 {
     display: inline-block;
     font-size: 1.6rem;
@@ -579,7 +567,7 @@ footer {
 
 /* HEADER */
 header {
-  background-image: url(../imagenes/header3.svg);
+  background-image: url(../imagenes/header2.svg);
   height: 11.875rem;
   background-size: cover;
   position: sticky;
@@ -595,15 +583,12 @@ header {
         font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif; }
   header .logo img {
-    /* display: inline-block; */
     width: 8.125rem;
-    /* animation-name: logo;
-        animation-duration: 4s;
-        animation-timing-function: ease-in;
-        animation-iteration-count: infinite; */ }
+    height: 8.125rem; }
   header .title1 {
     font-size: 3.6rem;
-    display: inline-block; }
+    display: inline-block;
+    margin: 0%; }
   header .title2 {
     display: inline-block;
     font-size: 1.6rem;
@@ -913,7 +898,7 @@ footer {
     flex-wrap: nowrap;
     justify-content: center;
     align-content: space-evenly;
-    height: 10rem; }
+    height: 13rem; }
   .footer {
     flex-direction: column;
     justify-content: center; }
