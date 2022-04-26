@@ -53,7 +53,7 @@
 	.botones {
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
+		align-items: center;
 		button {
 			width: fit-content;
 			margin: 0.3rem 0rem;
@@ -188,15 +188,17 @@
 	.title1 {
 		font-size: 0rem;
 		display: inline-block;
+		margin: -1rem;
 		p {
 			font-size: 2rem;
 			display: inline-block;
-			margin: 0rem;
+			padding: 0rem;
 		}
 	}
 	.title2 {
 		font-size: 0rem;
 		display: inline-block;
+		margin: -0.2rem;
 		p {
 			display: inline-block;
 			margin: 0rem;
@@ -225,7 +227,7 @@
 		flex-wrap: nowrap;
 		justify-content: center;
 		align-content: space-evenly;
-		height: 13rem;
+		height: fit-content;
 	}
 	.footer {
 		flex-direction: column;
@@ -259,6 +261,7 @@
 	.botones {
 		flex-direction: column;
 		align-items: center;
+		justify-content: center;
 		button {
 			width: 16.875rem;
 			margin: 0.313rem 0rem;

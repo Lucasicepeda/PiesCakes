@@ -9,6 +9,7 @@
 
     background-image: url(../imagenes/header2.svg);
     height: 11.875rem;
+    // height: fit-content;
     background-size: cover;
     position: sticky;
     display: flex;
@@ -25,7 +26,6 @@
     .title1 {
         font-size: 3.6rem;
         display: inline-block;
-        margin: 0%;
     }
 
     .title2 {

@@ -52,8 +52,7 @@ header {
     height: 8.125rem; }
   header .title1 {
     font-size: 3.6rem;
-    display: inline-block;
-    margin: 0%; }
+    display: inline-block; }
   header .title2 {
     display: inline-block;
     font-size: 1.6rem;
@@ -164,8 +163,7 @@ header {
     height: 8.125rem; }
   header .title1 {
     font-size: 3.6rem;
-    display: inline-block;
-    margin: 0%; }
+    display: inline-block; }
   header .title2 {
     display: inline-block;
     font-size: 1.6rem;
@@ -300,8 +298,7 @@ header {
     height: 8.125rem; }
   header .title1 {
     font-size: 3.6rem;
-    display: inline-block;
-    margin: 0%; }
+    display: inline-block; }
   header .title2 {
     display: inline-block;
     font-size: 1.6rem;
@@ -444,8 +441,7 @@ header {
     height: 8.125rem; }
   header .title1 {
     font-size: 3.6rem;
-    display: inline-block;
-    margin: 0%; }
+    display: inline-block; }
   header .title2 {
     display: inline-block;
     font-size: 1.6rem;
@@ -591,8 +587,7 @@ header {
     height: 8.125rem; }
   header .title1 {
     font-size: 3.6rem;
-    display: inline-block;
-    margin: 0%; }
+    display: inline-block; }
   header .title2 {
     display: inline-block;
     font-size: 1.6rem;
@@ -669,7 +664,7 @@ header {
 .botones {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  align-items: center;
   margin: 0rem 1.25rem;
   border-radius: 5% !important; }
 
@@ -774,7 +769,7 @@ footer {
   .botones {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; }
+    align-items: center; }
     .botones button {
       width: fit-content;
       margin: 0.3rem 0rem; }
@@ -873,14 +868,16 @@ footer {
         margin: 0rem; }
   .title1 {
     font-size: 0rem;
-    display: inline-block; }
+    display: inline-block;
+    margin: -1rem; }
     .title1 p {
       font-size: 2rem;
       display: inline-block;
-      margin: 0rem; }
+      padding: 0rem; }
   .title2 {
     font-size: 0rem;
-    display: inline-block; }
+    display: inline-block;
+    margin: -0.2rem; }
     .title2 p {
       display: inline-block;
       margin: 0rem;
@@ -902,7 +899,7 @@ footer {
     flex-wrap: nowrap;
     justify-content: center;
     align-content: space-evenly;
-    height: 13rem; }
+    height: fit-content; }
   .footer {
     flex-direction: column;
     justify-content: center; }
@@ -927,7 +924,8 @@ footer {
       margin: 0.625rem; }
   .botones {
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    justify-content: center; }
     .botones button {
       width: 16.875rem;
       margin: 0.313rem 0rem; }
