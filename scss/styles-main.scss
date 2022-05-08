@@ -7,4 +7,12 @@
 @import "_pag-nosotros.scss";
 @import "_pag-hacetupedido.scss";
 @import "_pag-contacto.scss";
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .0);
+    padding-left: calc(var(--bs-gutter-x) * .0);
+    margin-top: var(--bs-gutter-y);
+}
 @import "_mediaqueries.scss"; // MEDIAQUERIES, QUE QUEDEN ULTIMAS
