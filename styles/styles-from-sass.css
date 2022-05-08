@@ -98,6 +98,9 @@ header {
     height: 13.75rem;
     border-radius: 0.438rem;
     margin: 2.5rem 0rem; }
+    .imgs img:hover {
+      transition: 300ms;
+      box-shadow: 0.3rem 0.3rem 0.7rem #00000063; }
 
 body {
   background-image: url(../imagenes/background.png); }
@@ -636,7 +639,7 @@ header {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  margin: 1.5rem 0rem; }
+  margin: 0.5rem 0rem; }
   .form input {
     display: inline-block;
     border: solid black 0.125rem;
@@ -737,7 +740,7 @@ footer {
     font-size: 1.6rem;
     font-style: italic; }
   .navbar {
-    flex-direction: column;
+    flex-direction: row;
     align-items: stretch; }
     .navbar li {
       font-size: 1.25rem;
@@ -902,13 +905,18 @@ footer {
   .footer {
     flex-direction: column;
     justify-content: center; }
-  .navbar {
-    flex-direction: column;
-    align-items: stretch; }
-    .navbar li {
-      display: flex;
-      flex-direction: column;
-      justify-content: center; }
+  .fa-1x {
+    font-size: 1.5rem; }
+  .navbar-toggler.toggler-example {
+    cursor: pointer; }
+  .dark-blue-text {
+    color: #0A38F5; }
+  .dark-pink-text {
+    color: #AC003A; }
+  .dark-amber-text {
+    color: #ff6f00; }
+  .dark-teal-text {
+    color: #004d40; }
   .pespeciales {
     align-items: center;
     text-align: center; }

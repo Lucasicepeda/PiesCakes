@@ -35,6 +35,10 @@ header {
         height: 13.75rem;
         border-radius: 0.438rem;
         margin: 2.5rem 0rem;
+        &:hover {
+            transition: 300ms;
+            box-shadow: 0.3rem 0.3rem 0.7rem #00000063;
+        }
     }
 }
 
