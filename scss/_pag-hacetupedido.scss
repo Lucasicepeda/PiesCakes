@@ -23,16 +23,10 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-template-areas:
-        "fila 1 fila 1 fila 1"
-        "fila 2 fila 2 fila 2"
-        "fila 3 fila 3 fila 3"
-        "fila 4 fila 4 fila 4"
-        "fila 5 fila 5 fila 5";
-    grid-column-gap: 0.125rem;
-    grid-row-gap: 0.125rem;
+    gap: 30px;
     align-items: center;
     justify-items: center;
+    margin: 4vh 4vw;
 
     .producto {
         display: flex;
